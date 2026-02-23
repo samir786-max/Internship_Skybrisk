@@ -1,6 +1,6 @@
 ==================== WEEK: 1 ====================
 
-Introduction to Python
+### Introduction to Python
 
 Python is a high-level programming language known for its simplicity and readability. It was created by Guido van Rossum in 1989 at CWI (Centrum Wiskunde & Informatica) in the Netherlands and officially released in 1991.
 
@@ -28,7 +28,9 @@ GUI applications
 
 Game development
 
-Input and Output in Python
+### Input and Output in Python
+
+
 Taking Input from the User
 
 In Python, we use the input() function to receive data from the user. By default, the value entered through input() is treated as a string.
@@ -48,7 +50,7 @@ To show results on the screen, Python provides the print() function.
 
 print("Hello")
 
-Variables in Python
+### Variables in Python
 
 A variable is simply a name used to store data. Python automatically decides the data type based on the assigned value, so we don’t need to declare it manually.
 
@@ -78,19 +80,28 @@ print(x, y, z)
 String (Text)
 name = "Python"
 print(name)
-Boolean
+
+## Boolean
+
 is_active = True
 print(type(is_active))
-Collection Data Types
+
+### Collection Data Types
+
 List (Ordered & Changeable)
 fruits = ["apple", "banana"]
 print(fruits)
+
 Tuple (Ordered but Immutable)
 colors = ("orange", "blue")
 print(colors)
+
+
 Set (Unordered & Unique Values)
 numbers = {1, 2, 3}
 print(numbers)
+
+
 Dictionary (Key–Value Pair)
 person = {
     "name": "anu",
@@ -98,7 +109,7 @@ person = {
 }
 print(person)
 
-Conditional Statements
+### Conditional Statements
 
 Conditional statements allow a program to make decisions based on certain conditions.
 
@@ -547,4 +558,5 @@ import numpy as np
 
 data = np.random.randint(1, 100, (5, 5))
 sns.heatmap(data, annot=True)
+
 plt.show()
